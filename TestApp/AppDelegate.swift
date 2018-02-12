@@ -15,9 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        DispatchQueue.main.async {
+//        DispatchQueue.main.async {
             self.setupStatusBar()
-        }
+//        }
         return true
     }
     private func setupStatusBar() {
